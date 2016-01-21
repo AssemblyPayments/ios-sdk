@@ -1,4 +1,4 @@
-# PromisePay
+# PromisePay - iOS SDK
 
 [![CI Status](http://img.shields.io/travis/KevinHakans/PromisePay.svg?style=flat)](https://travis-ci.org/KevinHakans/PromisePay)
 [![Version](https://img.shields.io/cocoapods/v/PromisePay.svg?style=flat)](http://cocoapods.org/pods/PromisePay)
