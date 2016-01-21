@@ -1,0 +1,14 @@
+PODS:
+  - PromisePay (0.1.0)
+
+DEPENDENCIES:
+  - PromisePay (from `../`)
+
+EXTERNAL SOURCES:
+  PromisePay:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PromisePay: 8bd0489620b3eaeeef940f4eae17c66b83457686
+
+COCOAPODS: 0.39.0

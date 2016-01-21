@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'PromisePay_Example', :exclusive => true do
+  pod "PromisePay", :path => "../"
+end
+
+target 'PromisePay_Tests', :exclusive => true do
+  pod "PromisePay", :path => "../"
+
+  
+end

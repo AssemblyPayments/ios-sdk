@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B67B5F51329F13273DA58C343775B8 /* Pods-PromisePay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF81C2C247AE35A086B1071CB02BF95 /* Pods-PromisePay_Example-dummy.m */; };
+		18D53D31E967E1057321334425F766C6 /* PPCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F698559E3A855AB593CABDA5E0B2349 /* PPCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		202CFA7CA7D4EAA7CAAC2AB6CAA5CB2B /* Pods-PromisePay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 364309C0D2916FCDC4FDB363FCEF2F98 /* Pods-PromisePay_Tests-dummy.m */; };
+		2DAE852DA2BD51611603BCDCCA73515B /* PromisePay.h in Headers */ = {isa = PBXBuildFile; fileRef = 305E67C8B42871F1C8B30C3D884CEA24 /* PromisePay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B3BF13A5DFD9F1C575A1ECBC49848C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5AE19209E8157D41B48EB5EF7F00F847 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6B2BCDCF5B5A1CE72676392CFF06475C /* Pods-PromisePay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 226E70F8B057F830C339927567A683F9 /* Pods-PromisePay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B5B4EEB5D5162E657B344028EEF9DC1 /* PromisePay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA844E4144878363CC7B1D3C8592FB1 /* PromisePay-dummy.m */; };
+		81FF160164723E07123915A45CFBFDF1 /* Pods-PromisePay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EEED57BA3824A284F2C8118DC3C1710 /* Pods-PromisePay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA1FF8B473401B827B94496F1BB1ADD7 /* PromisePay.m in Sources */ = {isa = PBXBuildFile; fileRef = 260906688E68730AD7D12FB12C3B9119 /* PromisePay.m */; };
+		CDD8F4E817C462C9C55117711E79E9FF /* PPCard.m in Sources */ = {isa = PBXBuildFile; fileRef = D621EDBF1B01C71CCA9B5E2B80095C45 /* PPCard.m */; };
+		D900ADC2B29BDACFF7D537E484CF9C3B /* PromisePay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8E276C39BD228330D292505C90C76A /* PromisePay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4D974221198C8CFF96F96A350FFDE72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		EF82F3275E1F336E930EFF2A76FA33D0 /* PromisePay.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 819914CEECF9440D634C8798ACA28B51 /* PromisePay.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4407B85EDAD76545DAC3AEE06FC6EEC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 059EF5117BD3129FD08912A3AB8A26F3;
+			remoteInfo = PromisePay;
+		};
+		F23BF89B63F4FA4D9E453F87B43810CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3D9BF5FDB7F78F69292781060BC765B;
+			remoteInfo = "PromisePay-PromisePay";
+		};
+		FF3D06CCF7A711B4FEE63098BCFA3857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 059EF5117BD3129FD08912A3AB8A26F3;
+			remoteInfo = PromisePay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AF41DCCE4D0F0D9BB82C3511735945 /* Pods-PromisePay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PromisePay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A210D7E58766F29D2AD092170C1350F /* Pods-PromisePay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PromisePay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		226E70F8B057F830C339927567A683F9 /* Pods-PromisePay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PromisePay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		260906688E68730AD7D12FB12C3B9119 /* PromisePay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PromisePay.m; sourceTree = "<group>"; };
+		2E7AF224A24A90D36823E13FE9B9B2A8 /* Pods-PromisePay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PromisePay_Example-resources.sh"; sourceTree = "<group>"; };
+		305E67C8B42871F1C8B30C3D884CEA24 /* PromisePay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PromisePay.h; sourceTree = "<group>"; };
+		364309C0D2916FCDC4FDB363FCEF2F98 /* Pods-PromisePay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PromisePay_Tests-dummy.m"; sourceTree = "<group>"; };
+		390A6F3F9F512E52D3E0CC685908723A /* Pods-PromisePay_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PromisePay_Tests-resources.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4942725E34CD9448A636EE835FFF795A /* PromisePay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PromisePay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C0C62B9558392B521213F50B9B0527 /* Pods-PromisePay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PromisePay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		56282A1F3E67AB190C90F351C8F9E984 /* Pods-PromisePay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PromisePay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5EEED57BA3824A284F2C8118DC3C1710 /* Pods-PromisePay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PromisePay_Example-umbrella.h"; sourceTree = "<group>"; };
+		675EE118A9B8FFC5F4772BFB4CAF99E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA5479A54CA15F246BFDA67A5A87567 /* Pods-PromisePay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PromisePay_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6EA844E4144878363CC7B1D3C8592FB1 /* PromisePay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromisePay-dummy.m"; sourceTree = "<group>"; };
+		819914CEECF9440D634C8798ACA28B51 /* PromisePay.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PromisePay.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		856E47854449C042836611508D8AE70C /* PromisePay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PromisePay.modulemap; sourceTree = "<group>"; };
+		8C31EAAFFEA09D85475F5834D19EF235 /* PromisePay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisePay-prefix.pch"; sourceTree = "<group>"; };
+		8C530BED2B7EE7D7A3B137BDE8270D86 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F698559E3A855AB593CABDA5E0B2349 /* PPCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PPCard.h; sourceTree = "<group>"; };
+		90128A635B50BD02626C13C1C803A8A2 /* Pods-PromisePay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PromisePay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9192C2B8D6C33294D87165A15FF5AF88 /* Pods-PromisePay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PromisePay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		94CF7C2A06F498E228D7217B55C52BEE /* Pods-PromisePay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PromisePay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A709D155803DAD771F898D56448246B /* Pods_PromisePay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PromisePay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A08AEC5F05471FD50EEA267DAC4E8B /* Pods_PromisePay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PromisePay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75A0C7E09DB90308CCE3B7BE34768F8 /* Pods-PromisePay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PromisePay_Tests.modulemap"; sourceTree = "<group>"; };
+		ABF81C2C247AE35A086B1071CB02BF95 /* Pods-PromisePay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PromisePay_Example-dummy.m"; sourceTree = "<group>"; };
+		AF2F02F6271B50E38C6F44A570396BFA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2BEF5D6279B262ABA2BADA48A9C1CE6 /* PromisePay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisePay.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB6F24EDEABFE2C2022E92DD76F5424D /* Pods-PromisePay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PromisePay_Example.modulemap"; sourceTree = "<group>"; };
+		D621EDBF1B01C71CCA9B5E2B80095C45 /* PPCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PPCard.m; sourceTree = "<group>"; };
+		DE3C3D8723613DBB3E021483613F6D16 /* Pods-PromisePay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PromisePay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF8E276C39BD228330D292505C90C76A /* PromisePay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisePay-umbrella.h"; sourceTree = "<group>"; };
+		F563F7366533F6D99491C4B43C2AB652 /* Pods-PromisePay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PromisePay_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		006C0463854D175A53222ACF1B2813E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE19209E8157D41B48EB5EF7F00F847 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B70E5C1F82F83CF8FD16EF4DF89B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B3BF13A5DFD9F1C575A1ECBC49848C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB83AFE480C122EC4EFC4172E08B8A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A975AC58E731D5A74F9B19C7440DC29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D974221198C8CFF96F96A350FFDE72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F66A385B782477EF379DBE2B454BE04 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF2F02F6271B50E38C6F44A570396BFA /* Info.plist */,
+				856E47854449C042836611508D8AE70C /* PromisePay.modulemap */,
+				B2BEF5D6279B262ABA2BADA48A9C1CE6 /* PromisePay.xcconfig */,
+				6EA844E4144878363CC7B1D3C8592FB1 /* PromisePay-dummy.m */,
+				8C31EAAFFEA09D85475F5834D19EF235 /* PromisePay-prefix.pch */,
+				EF8E276C39BD228330D292505C90C76A /* PromisePay-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PromisePay";
+			sourceTree = "<group>";
+		};
+		4A9D60C2E173A262CB19581B428F2DB2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6F1710A6E6280162DCF60D319BBE3733 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		4FE317AE0C9753F6FBB73B0050709F90 /* Pods-PromisePay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8C530BED2B7EE7D7A3B137BDE8270D86 /* Info.plist */,
+				BB6F24EDEABFE2C2022E92DD76F5424D /* Pods-PromisePay_Example.modulemap */,
+				90128A635B50BD02626C13C1C803A8A2 /* Pods-PromisePay_Example-acknowledgements.markdown */,
+				01AF41DCCE4D0F0D9BB82C3511735945 /* Pods-PromisePay_Example-acknowledgements.plist */,
+				ABF81C2C247AE35A086B1071CB02BF95 /* Pods-PromisePay_Example-dummy.m */,
+				F563F7366533F6D99491C4B43C2AB652 /* Pods-PromisePay_Example-frameworks.sh */,
+				2E7AF224A24A90D36823E13FE9B9B2A8 /* Pods-PromisePay_Example-resources.sh */,
+				5EEED57BA3824A284F2C8118DC3C1710 /* Pods-PromisePay_Example-umbrella.h */,
+				52C0C62B9558392B521213F50B9B0527 /* Pods-PromisePay_Example.debug.xcconfig */,
+				9192C2B8D6C33294D87165A15FF5AF88 /* Pods-PromisePay_Example.release.xcconfig */,
+			);
+			name = "Pods-PromisePay_Example";
+			path = "Target Support Files/Pods-PromisePay_Example";
+			sourceTree = "<group>";
+		};
+		64AAD8D392D4D33680A905929BA8FAA1 /* PromisePay */ = {
+			isa = PBXGroup;
+			children = (
+				4A9D60C2E173A262CB19581B428F2DB2 /* Pod */,
+				0F66A385B782477EF379DBE2B454BE04 /* Support Files */,
+			);
+			name = PromisePay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6F1710A6E6280162DCF60D319BBE3733 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8F698559E3A855AB593CABDA5E0B2349 /* PPCard.h */,
+				D621EDBF1B01C71CCA9B5E2B80095C45 /* PPCard.m */,
+				305E67C8B42871F1C8B30C3D884CEA24 /* PromisePay.h */,
+				260906688E68730AD7D12FB12C3B9119 /* PromisePay.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				B914739606A9B2AD74CD22BECBD7426F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E623A0FAC5FE79192E6E464204F96461 /* Products */,
+				FD9B37C6029D9DAFEFF5375DB16219ED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9AA746FDB335AF3F19DB5FDF2E865FCF /* Pods-PromisePay_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				675EE118A9B8FFC5F4772BFB4CAF99E1 /* Info.plist */,
+				A75A0C7E09DB90308CCE3B7BE34768F8 /* Pods-PromisePay_Tests.modulemap */,
+				94CF7C2A06F498E228D7217B55C52BEE /* Pods-PromisePay_Tests-acknowledgements.markdown */,
+				1A210D7E58766F29D2AD092170C1350F /* Pods-PromisePay_Tests-acknowledgements.plist */,
+				364309C0D2916FCDC4FDB363FCEF2F98 /* Pods-PromisePay_Tests-dummy.m */,
+				6DA5479A54CA15F246BFDA67A5A87567 /* Pods-PromisePay_Tests-frameworks.sh */,
+				390A6F3F9F512E52D3E0CC685908723A /* Pods-PromisePay_Tests-resources.sh */,
+				226E70F8B057F830C339927567A683F9 /* Pods-PromisePay_Tests-umbrella.h */,
+				DE3C3D8723613DBB3E021483613F6D16 /* Pods-PromisePay_Tests.debug.xcconfig */,
+				56282A1F3E67AB190C90F351C8F9E984 /* Pods-PromisePay_Tests.release.xcconfig */,
+			);
+			name = "Pods-PromisePay_Tests";
+			path = "Target Support Files/Pods-PromisePay_Tests";
+			sourceTree = "<group>";
+		};
+		B914739606A9B2AD74CD22BECBD7426F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64AAD8D392D4D33680A905929BA8FAA1 /* PromisePay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E623A0FAC5FE79192E6E464204F96461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0A08AEC5F05471FD50EEA267DAC4E8B /* Pods_PromisePay_Example.framework */,
+				9A709D155803DAD771F898D56448246B /* Pods_PromisePay_Tests.framework */,
+				819914CEECF9440D634C8798ACA28B51 /* PromisePay.bundle */,
+				4942725E34CD9448A636EE835FFF795A /* PromisePay.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD9B37C6029D9DAFEFF5375DB16219ED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FE317AE0C9753F6FBB73B0050709F90 /* Pods-PromisePay_Example */,
+				9AA746FDB335AF3F19DB5FDF2E865FCF /* Pods-PromisePay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8BCEB14866C7D4DDAECAC04927D20093 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FF160164723E07123915A45CFBFDF1 /* Pods-PromisePay_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F40001D0F61C5529CBFDA6A1C7946D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2BCDCF5B5A1CE72676392CFF06475C /* Pods-PromisePay_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBA7C354ADBB3604458233E0349D4FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D53D31E967E1057321334425F766C6 /* PPCard.h in Headers */,
+				D900ADC2B29BDACFF7D537E484CF9C3B /* PromisePay-umbrella.h in Headers */,
+				2DAE852DA2BD51611603BCDCCA73515B /* PromisePay.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		059EF5117BD3129FD08912A3AB8A26F3 /* PromisePay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0804EF2307CDD08E36B1974A97ECF0 /* Build configuration list for PBXNativeTarget "PromisePay" */;
+			buildPhases = (
+				A2EBE0DF7ADD6AD019BD8DF529030EAE /* Sources */,
+				8A975AC58E731D5A74F9B19C7440DC29 /* Frameworks */,
+				38A33E490D0C67D478E0340566AF7FC0 /* Resources */,
+				EBBA7C354ADBB3604458233E0349D4FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3DAA6DD55785B8C9E4EDD6AF40B03FB /* PBXTargetDependency */,
+			);
+			name = PromisePay;
+			productName = PromisePay;
+			productReference = 4942725E34CD9448A636EE835FFF795A /* PromisePay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		689BE2D3A472602BD09BB58943EDBF52 /* Pods-PromisePay_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8242BF15A38042321B21CD3C0914A71E /* Build configuration list for PBXNativeTarget "Pods-PromisePay_Example" */;
+			buildPhases = (
+				403E32E2E128A5F8236A4006099DBF32 /* Sources */,
+				36B70E5C1F82F83CF8FD16EF4DF89B32 /* Frameworks */,
+				8BCEB14866C7D4DDAECAC04927D20093 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D693CDD690A821654F9353FF071108CC /* PBXTargetDependency */,
+			);
+			name = "Pods-PromisePay_Example";
+			productName = "Pods-PromisePay_Example";
+			productReference = A0A08AEC5F05471FD50EEA267DAC4E8B /* Pods_PromisePay_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DCC3E1634DA0BA9FCEE1B8286CA866E5 /* Pods-PromisePay_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F59CD98206CCAD9A98100C0187FCEE /* Build configuration list for PBXNativeTarget "Pods-PromisePay_Tests" */;
+			buildPhases = (
+				F5B934142C3054E4D355B4BE5B58786C /* Sources */,
+				006C0463854D175A53222ACF1B2813E2 /* Frameworks */,
+				91F40001D0F61C5529CBFDA6A1C7946D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3BE2CE9728732109ABBC8EC80B4AFDB /* PBXTargetDependency */,
+			);
+			name = "Pods-PromisePay_Tests";
+			productName = "Pods-PromisePay_Tests";
+			productReference = 9A709D155803DAD771F898D56448246B /* Pods_PromisePay_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3D9BF5FDB7F78F69292781060BC765B /* PromisePay-PromisePay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19050E9A0F1182147C984B4BA88BD672 /* Build configuration list for PBXNativeTarget "PromisePay-PromisePay" */;
+			buildPhases = (
+				8D912C457861221E559DBA1A9FF1A4DF /* Sources */,
+				3FB83AFE480C122EC4EFC4172E08B8A6 /* Frameworks */,
+				10EA4C7A30C2FA881BD7982757B8897D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PromisePay-PromisePay";
+			productName = "PromisePay-PromisePay";
+			productReference = 819914CEECF9440D634C8798ACA28B51 /* PromisePay.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E623A0FAC5FE79192E6E464204F96461 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				689BE2D3A472602BD09BB58943EDBF52 /* Pods-PromisePay_Example */,
+				DCC3E1634DA0BA9FCEE1B8286CA866E5 /* Pods-PromisePay_Tests */,
+				059EF5117BD3129FD08912A3AB8A26F3 /* PromisePay */,
+				E3D9BF5FDB7F78F69292781060BC765B /* PromisePay-PromisePay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10EA4C7A30C2FA881BD7982757B8897D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A33E490D0C67D478E0340566AF7FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF82F3275E1F336E930EFF2A76FA33D0 /* PromisePay.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403E32E2E128A5F8236A4006099DBF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B67B5F51329F13273DA58C343775B8 /* Pods-PromisePay_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D912C457861221E559DBA1A9FF1A4DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EBE0DF7ADD6AD019BD8DF529030EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD8F4E817C462C9C55117711E79E9FF /* PPCard.m in Sources */,
+				6B5B4EEB5D5162E657B344028EEF9DC1 /* PromisePay-dummy.m in Sources */,
+				AA1FF8B473401B827B94496F1BB1ADD7 /* PromisePay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B934142C3054E4D355B4BE5B58786C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202CFA7CA7D4EAA7CAAC2AB6CAA5CB2B /* Pods-PromisePay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3BE2CE9728732109ABBC8EC80B4AFDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromisePay;
+			target = 059EF5117BD3129FD08912A3AB8A26F3 /* PromisePay */;
+			targetProxy = 4407B85EDAD76545DAC3AEE06FC6EEC2 /* PBXContainerItemProxy */;
+		};
+		C3DAA6DD55785B8C9E4EDD6AF40B03FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PromisePay-PromisePay";
+			target = E3D9BF5FDB7F78F69292781060BC765B /* PromisePay-PromisePay */;
+			targetProxy = F23BF89B63F4FA4D9E453F87B43810CD /* PBXContainerItemProxy */;
+		};
+		D693CDD690A821654F9353FF071108CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromisePay;
+			target = 059EF5117BD3129FD08912A3AB8A26F3 /* PromisePay */;
+			targetProxy = FF3D06CCF7A711B4FEE63098BCFA3857 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0890281EE35CCAA7AF6829E967C6861F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C0C62B9558392B521213F50B9B0527 /* Pods-PromisePay_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PromisePay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PromisePay_Example/Pods-PromisePay_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PromisePay_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0AE790AA99AC4D638231E7ED1EC8DEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BEF5D6279B262ABA2BADA48A9C1CE6 /* PromisePay.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PromisePay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		541D42CD69F57F58B0D3BB4833573E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9192C2B8D6C33294D87165A15FF5AF88 /* Pods-PromisePay_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PromisePay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PromisePay_Example/Pods-PromisePay_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PromisePay_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		576D296F22D15BF159AD2571EE0EB8EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BEF5D6279B262ABA2BADA48A9C1CE6 /* PromisePay.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PromisePay/PromisePay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromisePay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PromisePay/PromisePay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PromisePay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63624D046619DB3771E95F797B3339C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BEF5D6279B262ABA2BADA48A9C1CE6 /* PromisePay.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PromisePay/PromisePay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromisePay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PromisePay/PromisePay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PromisePay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F9176BD9DC240BBDCED263CF60E4A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BEF5D6279B262ABA2BADA48A9C1CE6 /* PromisePay.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PromisePay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		880E25C192931CFBFF1130A32182DA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3C3D8723613DBB3E021483613F6D16 /* Pods-PromisePay_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PromisePay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PromisePay_Tests/Pods-PromisePay_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PromisePay_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9605187864F3C68657D32D6D95B4F2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56282A1F3E67AB190C90F351C8F9E984 /* Pods-PromisePay_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PromisePay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PromisePay_Tests/Pods-PromisePay_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PromisePay_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19050E9A0F1182147C984B4BA88BD672 /* Build configuration list for PBXNativeTarget "PromisePay-PromisePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE790AA99AC4D638231E7ED1EC8DEB7 /* Debug */,
+				6F9176BD9DC240BBDCED263CF60E4A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8242BF15A38042321B21CD3C0914A71E /* Build configuration list for PBXNativeTarget "Pods-PromisePay_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0890281EE35CCAA7AF6829E967C6861F /* Debug */,
+				541D42CD69F57F58B0D3BB4833573E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF0804EF2307CDD08E36B1974A97ECF0 /* Build configuration list for PBXNativeTarget "PromisePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63624D046619DB3771E95F797B3339C4 /* Debug */,
+				576D296F22D15BF159AD2571EE0EB8EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F59CD98206CCAD9A98100C0187FCEE /* Build configuration list for PBXNativeTarget "Pods-PromisePay_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880E25C192931CFBFF1130A32182DA75 /* Debug */,
+				9605187864F3C68657D32D6D95B4F2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
