@@ -1,5 +1,7 @@
 PODS:
-  - PromisePay (0.1.0)
+  - CardIO (5.3.2)
+  - PromisePay (0.1.0):
+    - CardIO (~> 5.3)
 
 DEPENDENCIES:
   - PromisePay (from `../`)
@@ -9,6 +11,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PromisePay: 8bd0489620b3eaeeef940f4eae17c66b83457686
+  CardIO: 92c45caef0d986c4a303a7afba0c9b76ff2b1f6e
+  PromisePay: ab2970b1f8e0387c94f395c9e21923683d96cbd8
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 4df90ae24be6199bc4cd055bc674bc2ef832409c
+
+COCOAPODS: 1.0.0

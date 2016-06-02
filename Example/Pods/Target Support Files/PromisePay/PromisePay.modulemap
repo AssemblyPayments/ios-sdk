@@ -1,6 +1,0 @@
-framework module PromisePay {
-  umbrella header "PromisePay-umbrella.h"
-
-  export *
-  module * { export * }
-}

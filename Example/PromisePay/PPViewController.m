@@ -39,7 +39,6 @@
     [self.promisePay createCardAccount:@"460b3a207121352b1d48aa0724734e4b" card:card callBack:^(id  result, NSError * error) {
         // TODO: process with the callback
     }];
-    
 }
 
 - (void)didReceiveMemoryWarning
@@ -61,6 +60,7 @@
 }
 
 - (void)userDidCancelCardScanning {
+    NSLog(@"user cancelled");
 }
 
 @end

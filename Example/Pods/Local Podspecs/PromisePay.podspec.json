@@ -23,5 +23,10 @@
     ]
   },
   "public_header_files": "Pod/Classes/**/*.h",
-  "frameworks": "Foundation"
+  "frameworks": "Foundation",
+  "dependencies": {
+    "CardIO": [
+      "~> 5.3"
+    ]
+  }
 }
