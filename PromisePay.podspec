@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PromisePay"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "PromisePay iOS SDK"
   s.description      = <<-DESC
                         The implementation of PromisePay Client SDK
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/PromisePay/ios-sdk"
   s.license          = 'MIT'
   s.author           = { "KevinHakans" => "kevin.hakans.it@gmail.com" }
-  s.source           = { :git => "https://github.com/PromisePay/ios-sdk.git", :tag => "v0.1.0" }
+  s.source           = { :git => "https://github.com/PromisePay/ios-sdk.git", :tag => "v0.2.0" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
