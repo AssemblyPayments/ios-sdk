@@ -150,15 +150,11 @@ Start the card scanner
 [self.promisePayCardScanner scanCardFromViewController:self];
 ```
 
-#4. Author
-
-KevinHakans, kevin.hakans.it@gmail.com
-
-#5. License
+#4. License
 
 PromisePay is available under the MIT license. See the LICENSE file for more info.
 
-#6. Requirements
+#5. Requirements
 
 Third-party open source libraries used within PromisePay:
 
