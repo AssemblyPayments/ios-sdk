@@ -7,7 +7,8 @@
 //
 
 @import UIKit;
+#import "PromisePayCardScanner.h"
 
-@interface PPViewController : UIViewController
+@interface PPViewController : UIViewController <PromisePayCardScannerDelegate>
 
 @end
